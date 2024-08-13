@@ -1,0 +1,63 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SPMPackage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Something",
+        "printedName": "Something",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "DoingSomeThing",
+            "printedName": "DoingSomeThing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SPMPackage9SomethingV14DoingSomeThingyyF",
+            "mangledName": "$s10SPMPackage9SomethingV14DoingSomeThingyyF",
+            "moduleName": "SPMPackage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SPMPackage9SomethingV",
+        "mangledName": "$s10SPMPackage9SomethingV",
+        "moduleName": "SPMPackage",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ravichandran\/Desktop\/ss\/SPMPackage\/DoSomethingStruct.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 16,
+      "value": "\"DoingSomeThing\""
+    }
+  ]
+}
